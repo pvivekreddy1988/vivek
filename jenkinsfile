@@ -2,7 +2,7 @@ pipeline {
     agent any
       stages {
         stage('testing') {
-          step {
+          steps {
             script {
               println "hi im from jenkins"
             }
