@@ -1,13 +1,13 @@
-pipeline{
-    agent{
-      stages{
-        stage('testing'){
-          step{
-            script{
+pipeline {
+    agent any
+      stages {
+        stage('testing') {
+          step {
+            script {
               println "hi im from jenkins"
             }
           }
         }
       }
     }
-}
+
